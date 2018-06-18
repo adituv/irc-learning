@@ -1,0 +1,23 @@
+name:                irc-client
+version:             0.1.0.0
+synopsis:            Library and executable for a simple IRC client
+description:         Library and executable for a simple IRC client
+homepage:            https://github.com/AdituV/irc-learning/irc-client#readme
+license:             BSD3
+author:              Iris Ward
+maintainer:          aditu.venyhandottir@gmail.com
+copyright:           2018 Iris Ward
+category:            Network
+extra-source-files:
+- README.md
+
+dependencies:
+  - base >= 4.7 && < 5
+
+library:
+  source-dirs:      src
+
+executables:
+  irc-client:
+    source-dirs:    app
+    main:           Main.hs
